@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AlipaySDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "AlipaySDK."
 
   # This description is used to generate tags and improve search results.
@@ -123,7 +123,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   s.libraries = "c++", "z"
-  #s.vendored_libraries = "AlipaySDK/AlipaySDK/**/*.a"
+  s.vendored_libraries = "AlipaySDK/AlipaySDK/**/*.a"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
