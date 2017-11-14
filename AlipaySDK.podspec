@@ -123,7 +123,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   s.libraries = "c++", "z"
-  s.vendored_libraries = "AlipaySDK/AlipaySDK/**/*.a"
+  #s.vendored_libraries = "AlipaySDK/AlipaySDK/**/*.a"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
